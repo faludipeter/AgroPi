@@ -1,0 +1,25 @@
+﻿@page
+@model AgroPi.Web.Pages.SensorsModel
+@{
+    ViewData["Title"] = "Sensors";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+    <div class="form-signin">
+        <h2>Sensors</h2>
+        <p><i class="material-icons">access_time</i>RTC time: <span id="RTC">@Model.RTCHeader.DateTime</span></p>
+        <p><i class="material-icons">ac_unit</i>Temperature: <span id="Temperature" class="sensors_span">@Model.ThermometersHeader.Temperature</span> °C</p>
+        <p><i class="material-icons">invert_colors</i>Humidity: <span id="Humidity" class="sensors_span">@Model.ThermometersHeader.Humidity</span> %rH</p>
+        <p><i class="material-icons">toys</i>Pressure: <span id="Pressure" class="sensors_span">@Model.ThermometersHeader.Pressure</span> hPa</p>
+        <p><i class="material-icons">wb_sunny</i>Lux: <span id="Lux" class="sensors_span">@Model.LuxmeterHeader.Lux</span> Lux</p>
+        <p><i class="material-icons">power</i>Shunt Voltage: <span id="ShuntVoltage" class="sensors_span">@Model.CurrentSensorHeader.ShuntVoltage</span> mV</p>
+        <p><i class="material-icons">power</i>Bus Voltage: <span id="BusVoltage" class="sensors_span">@Model.CurrentSensorHeader.BusVoltage</span> V</p>
+        <p><i class="material-icons">power</i>Current: <span id="Current" class="sensors_span">@Model.CurrentSensorHeader.Current</span> mA</p>
+        <p><i class="material-icons">power</i>Power: <span id="Power" class="sensors_span">@Model.CurrentSensorHeader.Power</span> mW</p>
+        <button id="refreshButton" class="btn btn-lg btn-info btn-block"><i class="material-icons">refresh</i>Refresh</button>
+        <a href="/" class="btn btn-lg btn-primary btn-block"><i class="material-icons">keyboard_backspace</i>Back</a>
+    </div>
+
+
+<script src="~/lib/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/sensors.js"></script>

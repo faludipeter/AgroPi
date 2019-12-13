@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="AgroPi.SAL.Sensors.LuxmeterHardwareSensor">
+    <Position X="2" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAgAAAAAAAAAACAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Sensors\LuxmeterHardwareSensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AgroPi.SAL.Sensors.RTCHardwareSensor">
+    <Position X="7.5" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sensors\RTCHardwareSensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AgroPi.SAL.Sensors.ThermometerHardwareSensor">
+    <Position X="10.25" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAggACAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Sensors\ThermometerHardwareSensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AgroPi.SAL.Sensors.CurrentHardwareSensor">
+    <Position X="4.75" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AACAABACAQAAQAAAAAAAAAAAAACAAQAAAAAAAAAAAEA=</HashCode>
+      <FileName>Sensors\CurrentHardwareSensor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AgroPi.SAL.Sensors.TSL2591.TSL2591Sensor" BaseTypeListCollapsed="true">
+    <Position X="2" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>kAABAAAJACAAAAAAAAQADAAAAABAIAABAASAAQAQAAA=</HashCode>
+      <FileName>Sensors\TSL2591\TSL2591Sensor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Enum Name="AgroPi.SAL.Sensors.TSL2591.GainMode.TSL2591GainMode">
+    <Position X="6" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAQAAAAAAAAAAAAAAIAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Sensors\TSL2591\GainMode\TSL2591GainMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AgroPi.SAL.Sensors.TSL2591.IntegrationTimeMode.TSL2591IntegrationTimeMode">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAABAAAIAAAAAAAAAAACAAAQAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Sensors\TSL2591\IntegrationTimeMode\TSL2591IntegrationTimeMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AgroPi.SAL.Sensors.TSL2591.Register.TSL2591Register">
+    <Position X="12" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAABASAAAAAAAACAAAAAAAAEARAAAIsAAAAA=</HashCode>
+      <FileName>Sensors\TSL2591\Register\TSL2591Register.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

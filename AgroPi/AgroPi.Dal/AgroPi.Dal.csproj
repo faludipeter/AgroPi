@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20191129010156_Init.cs" />
+    <Compile Remove="Migrations\20191129010156_Init.Designer.cs" />
+    <Compile Remove="Migrations\20191129022420_Init.cs" />
+    <Compile Remove="Migrations\20191129022420_Init.Designer.cs" />
+    <Compile Remove="Migrations\20191129022942_Init.cs" />
+    <Compile Remove="Migrations\20191129022942_Init.Designer.cs" />
+    <Compile Remove="Migrations\20191129023831_Init.cs" />
+    <Compile Remove="Migrations\20191129023831_Init.Designer.cs" />
+    <Compile Remove="Migrations\20191129024022_Init.cs" />
+    <Compile Remove="Migrations\20191129024022_Init.Designer.cs" />
+    <Compile Remove="Migrations\20191129025056_Init.cs" />
+    <Compile Remove="Migrations\20191129025056_Init.Designer.cs" />
+    <Compile Remove="Migrations\20191202041421_iNIT.cs" />
+    <Compile Remove="Migrations\20191202041421_iNIT.Designer.cs" />
+    <Compile Remove="Migrations\20191203170326_Init.cs" />
+    <Compile Remove="Migrations\20191203170326_Init.Designer.cs" />
+    <Compile Remove="Migrations\20191203170604_Init.cs" />
+    <Compile Remove="Migrations\20191203170604_Init.Designer.cs" />
+    <Compile Remove="Migrations\20191207044034_Init.cs" />
+    <Compile Remove="Migrations\20191207044034_Init.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.1.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.1.4" />
+  </ItemGroup>
+
+</Project>
